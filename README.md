@@ -14,4 +14,6 @@ Screenshot of Chrome
 
 ![Screenshot of Chrome](screenshot.jpg)
 
+Movie example
+
 [![Example](http://img.youtube.com/vi/g_T9phfS2pQ/0.jpg)](http://www.youtube.com/watch?v=g_T9phfS2pQ)
