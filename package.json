@@ -1,0 +1,23 @@
+{
+  "name": "JumpToOSMChangesetAnalyzer",
+  "version": "0.1.0",
+  "description": "Go and back between OSM, OSMCha and achavi",
+  "scripts": {
+    "dev": "parcel watch manifest.json",
+    "build": "parcel build manifest.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tankaru/JumpToOSMChangesetAnalyzer.git"
+  },
+  "author": "tankaru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tankaru/JumpToOSMChangesetAnalyzer/issues"
+  },
+  "homepage": "https://github.com/tankaru/JumpToOSMChangesetAnalyzer#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-web-extension": "^1.5.2"
+  }
+}
