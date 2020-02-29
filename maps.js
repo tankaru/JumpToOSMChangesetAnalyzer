@@ -16,9 +16,9 @@ module.exports = [
     name: "OSMCha",
     category: "Changeset Analizers",
     domain: "osmcha.mapbox.com",
-    urlPattern: /osmcha\.mapbox\.com\/changesets/,
+    urlPattern: /osmcha\.org\/changesets/,
     getUrl(changeset) {
-      return 'https://osmcha.mapbox.com/changesets/' + changeset;
+      return 'https://osmcha.org/changesets/' + changeset;
     },
     getLatLonZoom(url) {
       const [, changeset] = url.match(/changesets\/(\d[0-9]*)/);
