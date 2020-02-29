@@ -1,4 +1,4 @@
-# OSMChangesetLeaper
+# JumpToOSMChangesetAnalyzer
 
 Open OSMCha and achavi from OSM webpage
 
