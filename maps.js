@@ -38,5 +38,17 @@ module.exports = [
       return [changeset];
     },
   },
-
+  {
+    name: "ResultMaps",
+    category: "Changeset Analizers",
+    domain: "neis-one.org",
+    urlPattern: /resultmaps\.neis\-one\.org\/osm\-change\-viz/,
+    getUrl(changeset) {
+      return 'https://resultmaps.neis-one.org/osm-change-viz?c=' + changeset;
+    },
+    getLatLonZoom(url) {
+      const [, changeset] = url.match(/osm-change-viz\?c=(\d[0-9]*)/);
+      return [changeset];
+    },
+  },
 ];
